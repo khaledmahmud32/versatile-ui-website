@@ -1,0 +1,124 @@
+@media screen and (max-width:576px) {
+    .nav-bar {
+
+        padding: 20px 16px;
+
+    }
+
+    .nav-bar>ul {
+        display: none;
+
+    }
+
+    .manue-bar {
+        display: block;
+    }
+
+
+
+
+
+
+    .banner {
+        flex-direction: column;
+        padding: 0 16px;
+        gap: 60px;
+    }
+
+    .banner-element-1,
+    .banner-element-2 {
+        width: 100%;
+    }
+
+    .banner-element-1 h2 {
+        font-size: 36px;
+
+
+    }
+
+    .stylish-font {
+        font-size: 36px;
+
+    }
+
+    .btn {
+        padding: 16px 30px;
+
+    }
+
+    .card-1 {
+
+        bottom: 200px;
+        left: 20px;
+    }
+
+    .card-2 {
+        top: 0px;
+        right: 0px;
+    }
+
+
+
+
+    .habit-content-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .heading-content h1 {
+        font-size: 32px;
+    }
+
+    .ad-banner-content-1,
+    .ad-banner-content-2 {
+        width: 100%;
+    }
+
+    .ad-banner {
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+
+    }
+
+    .add-banner-button {
+        width: 100%;
+    }
+
+    .second-banner {
+        padding: 0 16px;
+    }
+
+
+
+    .bmi-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .div-1,
+    .div-2 {
+        width: 100%;
+    }
+
+    .bmi-calculator-section {
+        padding: 34px 16px;
+    }
+
+    .trainer-dis-container {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .footer-container {
+        padding: 0 16px;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .first-column{
+        grid-column: span 1;
+    }
+
+
+}
