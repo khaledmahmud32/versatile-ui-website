@@ -11,12 +11,6 @@
     font-family: "Inter", sans-serif;
 }
 
-.container {
-    max-width: 1260px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 .btn {
     padding: 18px 44px;
     border-radius: 44px;
@@ -24,17 +18,17 @@
     color: white;
     border: none;
 }
-
-/* common heading classes */
-.heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.heading-content {
-    max-width: 675px;
-    text-align: center;
+/* head section */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .heading-content h1 {
@@ -42,29 +36,31 @@
     font-size: 50px;
     font-weight: 920;
     margin-bottom: 17px;
-
-
 }
+.heading-content {
+    max-width: 675px;
+    text-align: center;
+}
+
 
 .heading-content p {
-    color: rgba(255, 255, 255, 0.5);
     font-size: 15px;
-
+    color: rgba(255, 255, 255, 0.5);
 }
 
-/* header style */
+/* head sty */
 header {
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.755));
     min-height: 610px;
 }
 
-/* Nav bar style */
+/* Nav style */
 .nav-bar {
     display: flex;
+    padding: 60px 18px;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 18px;
-
+  
 }
 
 .nav-bar>ul {
@@ -75,25 +71,25 @@ header {
 }
 
 .manue-bar {
-    color: white;
     display: none;
+    color: white;
+    
 }
 
 .active-route {
-    border-radius: 48px;
-    padding: 14px 20px;
+    border-radius: 48px;   
     background: rgb(230, 83, 60);
-}
-
-.nav-bar>ul a {
-    color: white;
-    text-decoration: none;
+    padding: 14px 20px;
 }
 
 .nav-bar>ul {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 48px;
     padding: 0 14px 0 0;
+}
+.nav-bar>ul a {
+    color: white;
+    text-decoration: none;
 }
 
 .nav-bar>h3 {
@@ -103,9 +99,7 @@ header {
 
 }
 
-
-
-/* BANNER STYLE */
+/* BNR STYLE */
 .banner {
     display: flex;
     align-items: center;
@@ -150,15 +144,15 @@ header {
 
 .card-1 {
     display: flex;
+    position: absolute;
     align-items: center;
     gap: 14px;
+    border-radius: 13px;
+    backdrop-filter: blur(30px);
     color: white;
     padding: 24px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 13px;
-    backdrop-filter: blur(30px);
     background: rgba(209, 204, 204, 0.075);
-    position: absolute;
     bottom: 63px;
     left: 90px;
 }
@@ -169,8 +163,9 @@ header {
 }
 
 .card-1 h3 {
-    font-size: 26px;
     font-weight: 900;
+    font-size: 26px;
+   
 
 }
 
@@ -183,13 +178,15 @@ header {
 .card-2 {
     color: white;
     padding: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 14px;
-    backdrop-filter: blur(30px);
-    background: rgba(209, 204, 204, 0.075);
-    position: absolute;
     top: 130px;
     right: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    position: absolute;
+    backdrop-filter: blur(30px);
+    background: rgba(209, 204, 204, 0.075);
+    
+    
 }
 
 
@@ -202,8 +199,9 @@ header {
 
 .habit-content {
     color: white;
-    width: 248px;
     text-align: center;
+    width: 248px;
+   
 }
 
 .habit-img-container img {
@@ -213,8 +211,9 @@ header {
 .habit-content h3 {
     color: rgb(255, 255, 255);
     font-size: 16px;
-    font-weight: 600;
     margin: 14px 0;
+    font-weight: 600;
+    
 
 }
 
@@ -227,19 +226,21 @@ header {
 .habit-content-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
     align-items: center;
+    margin-top: 60px;
+    
 }
 
 .ad-banner {
     color: white;
     display: flex;
     align-items: center;
+    padding: 56px;
+    border-radius: 20px;
     gap: 170px;
     margin-top: 100px;
     background-color: rgb(34, 34, 34);
-    padding: 56px;
-    border-radius: 20px;
+   
 }
 
 .ad-banner-content-1,
@@ -254,16 +255,18 @@ header {
 
 .ad-banner-content-1 h2 {
     color: rgb(255, 255, 255);
-    font-size: 50px;
     font-weight: 900;
+    font-size: 50px;
+   
 
 }
 
 .ad-banner-content-1 p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
-    font-weight: 400;
     margin: 34px 0;
+    font-weight: 400;
+    
 }
 
 
@@ -288,8 +291,9 @@ header {
 th {
     width: 200px;
     text-align: left;
-    color: rgb(255, 255, 255);
     font-weight: 500;
+    color: rgb(255, 255, 255);
+
 }
 
 th,
@@ -300,14 +304,16 @@ td {
 .bmi-title {
     color: rgb(255, 255, 255);
     font-size: 27px;
-    font-weight: 900;
     margin-bottom: 54px;
+    font-weight: 900;
+  
 }
 
 .bmi-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .div-1,
@@ -317,31 +323,36 @@ td {
 
 .div-2 h2 {
     color: rgb(255, 255, 255);
-    font-size: 26px;
     font-weight: 900;
+    font-size: 26px;
+ 
 }
 
 .div-2 p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
-    font-weight: 400;
     margin: 15px 0;
+    font-weight: 400;
+  
 }
 
 .input-container {
     display: flex;
     align-items: center;
-    gap: 13px;
     margin: 15px 0;
+
+    gap: 13px;
 }
 
 .input-fild {
     width: 50%;
-    padding: 13px 40px 12px 20px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
     border: none;
     outline: none;
+    padding: 13px 40px 12px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+   
+   
 }
 
 
@@ -354,8 +365,9 @@ td {
 
 .trainer-element {
     color: white;
-    height: 300px;
     position: relative;
+    height: 300px;
+   
 }
 
 .trainer-element img {
@@ -366,18 +378,20 @@ td {
 
 .trainer-dis {
     position: absolute;
-    bottom: 12px;
     left: 10px;
+    bottom: 12px;
+  
 }
 
 .trainer-dis-container {
-    margin-top: 58px;
+    border-radius: 18px;
     display: grid;
     padding: 16px;
-    gap: 18px;
-    grid-template-columns: repeat(3, 1fr);
-    border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
+    gap: 18px;
+    margin-top: 58px;
+    grid-template-columns: repeat(3, 1fr);
+   
 }
 
 .footer {
@@ -387,9 +401,10 @@ td {
 
 .footer-title {
     color: rgb(230, 83, 60);
+    margin-bottom: 20px;
     font-style: italic;
     font-size: 68px;
-    margin-bottom: 20px;
+   
 }
 
 .footer p {
@@ -401,32 +416,36 @@ td {
 
 .footer-content h3 {
     color: rgb(255, 255, 255);
+    margin-bottom: 40px;
     font-size: 33px;
     font-weight: 700;
-    margin-bottom: 40px;
+
 
 }
 
 .footer-content ul {
     list-style: none;
+    gap: 18px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+
 
 
 }
 
 .footer-content a {
     color: rgba(255, 255, 255, 0.5);
-    font-size: 24px;
     text-decoration: none;
+    font-size: 24px;
+
 }
 
 .footer-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 100px;
     padding-bottom: 78px;
+    gap: 100px;
+
 }
 .first-column{
     grid-column: span 2;
